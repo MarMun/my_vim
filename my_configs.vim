@@ -11,6 +11,9 @@ set shiftwidth=2
 " adjust split location
 set splitright
 
+" show hidden files
+let g:ctrlp_show_hidden=1
+
 "colorscheme
 let g:sonokai_style = 'andromeda'
 let g:sonokai_better_performance = 1
