@@ -13,6 +13,7 @@ set splitright
 
 " show hidden files
 let g:ctrlp_show_hidden=1
+let NERDTreeShowHidden = 1
 
 "colorscheme
 let g:sonokai_style = 'andromeda'
