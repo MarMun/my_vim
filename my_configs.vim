@@ -8,6 +8,11 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" do not remove " from json files
+autocmd Filetype json
+  \ let g:indentLine_setConceal = 0 |
+  \ let g:vim_json_syntax_conceal = 0
+
 " cursor mode adjustment
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[1 q"
