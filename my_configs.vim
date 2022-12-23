@@ -20,6 +20,10 @@ let &t_EI = "\e[1 q"
 " adjust split location
 set splitright
 
+" set line numbers
+set number
+set relativenumber
+
 " show hidden files
 let g:ctrlp_show_hidden=1
 let NERDTreeShowHidden = 1
